@@ -1,0 +1,173 @@
+
+.userForm {
+  padding: 16px;
+  width: 320px;
+  margin: 0 auto;
+}
+
+.userForm .segment {
+  padding: 32px 0;
+  text-align: center;
+}
+
+.userForm button, .userForm input {
+  border: 0;
+  outline: 0;
+  font-size: 16px;
+  border-radius: 320px;
+  padding: 16px;
+  text-shadow: 1px 1px 0 #FFF;
+}
+
+.userForm label {
+  display: block;
+  margin-bottom: 24px;
+  width: 100%;
+}
+
+.userForm input:not([type="checkbox"]){
+  margin-right: 8px;
+  box-shadow: inset 2px 2px 5px #BABECC, inset -5px -5px 10px #FFF;
+  width: 100%;
+  box-sizing: border-box;
+  transition: all 0.2s ease-in-out;
+  appearance: none;
+  -webkit-appearance: none;
+}
+.userForm input:focus:not(:read-only) {
+  box-shadow: inset 1px 1px 2px #BABECC, inset -1px -1px 2px #FFF;
+}
+
+.userForm button {
+  color: #61677C;
+  font-weight: bold;
+  box-shadow: -5px -5px 20px #FFF, 5px 5px 20px #BABECC;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+  font-weight: 600;
+}
+.userForm button:hover {
+  box-shadow: -2px -2px 5px #FFF, 2px 2px 5px #BABECC;
+}
+.userForm button:active {
+  box-shadow: inset 1px 1px 2px #BABECC, inset -1px -1px 2px #FFF;
+}
+.userForm button .icon {
+  margin-right: 8px;
+}
+.userForm button.unit {
+  border-radius: 8px;
+  line-height: 0;
+  width: 48px;
+  height: 48px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 8px;
+  font-size: 19.2px;
+}
+.userForm button.unit .icon {
+  margin-right: 0;
+}
+.userForm button.red {
+  display: block;
+  width: 100%;
+  color: #AE1100;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.input-group label {
+  margin: 0;
+  flex: 1;
+}
+
+.userForm input:focus::-webkit-input-placeholder,
+.userForm textarea:focus::-webkit-input-placeholder {
+	/* WebKit browsers */
+	color: transparent;
+}
+
+.userForm input:focus:-moz-placeholder,
+.userForm textarea:focus:-moz-placeholder {
+	/* Mozilla Firefox 4 to 18 */
+	color: transparent;
+}
+
+.userForm input:focus::-moz-placeholder,
+.userForm textarea:focus::-moz-placeholder {
+	/* Mozilla Firefox 19+ */
+	color: transparent;
+}
+
+.userForm input:focus:-ms-input-placeholder,
+.userForm textarea:focus:-ms-input-placeholder {
+	/* Internet Explorer 10+ */
+	color: transparent;
+}
+
+.userForm {
+	text-align: center;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+	border-radius: 10px;
+	padding: 20px 20px;
+	margin-bottom: 20px;
+}
+
+.userForm-TitleWrapper {
+	margin-bottom: 40px;
+}
+
+.userForm-TitleWrapper .Title {
+	font-size: 30px;
+}
+
+.userMain {
+	display: flex;
+	flex-direction: column;
+	padding-bottom: 20px;
+}
+
+.userForm input,
+.btn {
+	border: none;
+	padding: 10px 10px;
+	font-size: 20px;
+}
+
+.userForm input:focus {
+	outline: none;
+}
+
+.userForm__inputData {
+	padding: 2px;
+	position: relative;
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+
+input:read-only {
+	background-color: rgba(90, 88, 88, 0.4);
+	color: white !important;
+}
+
+input:read-only::placeholder {
+	color: whitesmoke;
+}
+
+/* 
+.userForm__submit {
+	transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+}
+
+.userForm__submit:hover {
+	box-shadow: 0 0 40px 40px green inset;
+	color: white;
+	font-weight: 600;
+} */

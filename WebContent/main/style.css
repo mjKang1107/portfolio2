@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css?family=Nanum+Gothic+Coding");
+:root {
+  --color-text: #fff;
+  --color-bg: #ddd;
+  --font-text: "Nanum Gothic Coding", monospace;
+  --fontsize-text: 5vw;
+  --fontsize-han: 4vw;
+  --fontsize-center: 2vw;
+  --fontsize-last: 3vw;
+  
+}
+
+#mainBodyDeco {
+  min-height: 100vh;
+  color: #000;
+  color: var(--color-text);
+  background-color: #fff;
+  background: var(--color-bg);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transition: background 1s;
+}
+
+.sections {
+  position: relative;
+  display: block;
+  padding: 0 6vmax;
+}
+
+.section {
+  position: relative;
+  min-height: 100vh;
+}
+
+.section--image {
+  display: block;
+  position: relative;
+  max-width: 100%;
+  margin: 10vh 0 30vh auto;
+  opacity: 0;
+  transition: opacity 1s;
+}
+.active .section--image {
+  opacity: 1;
+}
+.section--image img {
+  display: block;
+  position: relative;
+  max-width: 90%;
+  max-height: 100vh;
+  margin: 0 0 0 auto;
+}
+
+.section--header {
+  font-size: calc(var(--fontsize-text));
+  font-family: var(--font-text);
+  position: absolute;
+  bottom: 30vmax;
+  background-color:#000;
+  left: 0;
+  padding-left: 5vmax;
+  z-index: 1000;
+  line-height: 1;
+  font-weight: 300;
+  opacity: 0;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+.active .section--header {
+  -webkit-animation-name: fadeInUp;
+          animation-name: fadeInUp;
+}
+
+.section--han {
+  background-color:#000;
+  font-size: calc(var(--fontsize-han));
+  font-family: var(--font-text);
+  position: absolute;
+  bottom: 30vmax;
+  left: 0;
+  padding-left: 5vmax;
+  z-index: 1000;
+  line-height: 1;
+  font-weight: 300;
+  opacity: 0;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+
+.active .section--han {
+  -webkit-animation-name: fadeInUp;
+          animation-name: fadeInUp;
+}
+
+.section--center {
+  background-color:#000;
+  font-size: calc(var( --fontsize-center));
+  font-family: var(--font-text);
+  position: absolute;
+  bottom: 25vmax;
+  left: 0;
+  padding-left: 5vmax;
+  z-index: 1000;
+  line-height: 1.1;
+  font-weight: 300;
+  opacity: 0;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+.active .section--center {
+  -webkit-animation-name: fadeInUp;
+          animation-name: fadeInUp;
+}
+.section--last {
+  background-color:#000;
+  font-size: calc(var( --fontsize-last));
+  font-family: var(--font-text);
+  position: absolute;
+  bottom: 25vmax;
+  left: 0;
+  padding-left: 5vmax;
+  z-index: 1000;
+  line-height: 1.1;
+  font-weight: 300;
+  opacity: 0;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+.active .section--last {
+  -webkit-animation-name: fadeInUp;
+          animation-name: fadeInUp;
+}
+
+
+@-webkit-keyframes fadeInUp {
+  0% {
+    transform: translate3d(0, 55%, 0);
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes fadeInUp {
+  0% {
+    transform: translate3d(0, 55%, 0);
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+#directTeam {
+	position: absolute;
+    bottom: 3%;
+    text-decoration: none;
+    font-size: 2em;
+    font-weight: bold;
+    color: white;
+    left: 15%;
+}

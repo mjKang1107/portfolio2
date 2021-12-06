@@ -1,0 +1,127 @@
+@CHARSET "UTF-8";
+
+.wrap {
+	width: 80%;
+    margin: 0 8% 0 8%;
+    font-size: 16px;
+    text-align: center;
+    float: left;
+    
+}
+
+
+#top {
+	margin-top: 200px;
+	width: 15%;
+    float: left;
+}
+
+#top a{
+text-decoration: none;
+color: black;
+margin-right: 30px; 
+margin-top: 10px;
+
+}
+
+nav>ul {list-style: none;/*목록 앞의 모양 제거*/}
+
+.clear{clear: both;}
+
+.search_fr {
+	float:left;
+	margin-top: 20px;
+}
+
+ #search_fr{
+	width: 250px;
+} 
+
+.pageChange {
+	float: right;
+    margin-bottom: 30px;
+}
+#write_btn {
+	float: right;
+}
+
+#wrap a {
+	text-decoration: none;
+	color: black;
+}
+#wrap a:link {color: gray;}
+#wrap a:hover {color: olive;}
+#wrap a:active {color: red;}
+
+#commentListfr{
+  border-collapse: separate;
+  border-spacing: 0.5px;
+  text-align: left;
+  line-height: 1.5;
+  border-top: 1px solid #ccc;
+  margin : 0 auto;
+}
+
+#commentListfr td {
+    padding: 20px;
+    vertical-align: middle;
+    border-bottom: 1px solid #ccc;
+}
+
+#commentListfr .commentIdx_share {
+	width: 10%
+}
+#commentListfr .commentUser_share {
+	width: 10%
+}
+#commentListfr .commentContent_share {
+	width: 50%
+}
+#commentListfr .commentDate_share {
+	width: 15%
+}
+#commentListfr .commentOption_share {
+	width: 15%
+}
+
+#commentListfr input[type=text]{
+	width: 100%;
+    border: none;
+}
+#commentListfr input[type=button]{
+	border: none;
+}
+
+.form-control{
+	width: 60%;
+	margin: 0 auto;
+	
+}
+
+.write-btn{
+	float: right;
+	margin-top: -10px;
+}
+
+.btn{
+	margin-right: 7px;
+}
+
+.btnwrap{
+	display: flex;
+	align-items: center;
+	margin-bottom: 80px;
+}
+
+.cc{
+ text-overflow:ellipsis; 
+ overflow:hidden; 
+ white-space:nowrap;
+ background-color:transparent;
+ border:0px;
+ }
+
+ 
+#bmox{
+     float: right;
+ }

@@ -1,0 +1,66 @@
+.github-login {
+	width: 190px;
+    border-top: 1px solid gray;
+    border-radius: 20px;
+    margin-top: 10px;
+    background-image: linear-gradient(to left,rgb(59, 52, 52),black,rgb(59, 52, 52));
+	padding: 12px 20px;
+    background-color: rgb(235, 142, 126);
+    text-align: center;
+    cursor: pointer;
+    display: block;
+	text-decoration: none;
+	color:white;
+	margin: 0 auto;
+	text-shadow: none !important;
+	font-weight: 600 !important;
+}
+
+#kakaoLogin:hover{
+	cursor: pointer;
+}
+
+.reqJoin{
+	text-align: center;
+}
+
+.reqJoin a{
+	text-decoration: none;
+	color: rgb(109, 109, 161);
+}
+
+.userForm .loginForm__loginBtn{
+	margin-bottom: 20px;
+}
+
+.loginFrom-socialWrapper{
+	display: flex;
+	flex-direction: column;
+	border-top: 2px solid rgba(83, 83, 83, 0.397);
+	padding-top: 50px;
+	margin-top: 40px;
+	text-align: center;
+}
+
+.loginFrom-socialWrapper div{
+	margin-bottom: 20px;
+}
+
+.loginForm__loginBtn{
+	position: relative;
+	top:0;
+	transition: top 1s ease;
+}
+
+.loginForm__loginBtn:active{
+	top: 5px;
+}
+
+.memoIdWrapper{
+	display: flex;
+	flex-direction: row;
+	text-align: center !important;
+	width: fit-content !important;
+	margin: 0 auto;
+	margin-top: 10px;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <div class="report__content_wrapper">
+        <div class="content">
+            <div class="title">
+                <span>게시물 신고하기</span>
+                <div class="close"><i class="fas fa-times"></i></div>
+            </div>
+            <form action="./reportBoard.repo" method="post">
+                <input type="hidden" name="boardNum" value="">
+                <div class="content_input">
+                    <input type="radio" id="report__type1" class="report__type" name="report-type__btn"><label for="report__type1">욕설, 비방</label>
+                </div>
+                <div class="content_input">
+                    <input type="radio" id="report__type2" class="report__type" name="report-type__btn"><label for="report__type2">성적인 콘텐츠</label>
+                </div>
+                <div class="content_input">
+                    <input type="radio" id="report__type3" class="report__type" name="report-type__btn"><label for="report__type3">폭력적 또는 혐오스러운 콘텐츠</label>
+                </div>
+                <div class="content_input">
+                    <input type="radio" id="report__type4" class="report__type" name="report-type__btn"><label for="report__type4">기타</label>
+                </div>
+                <button type="submit">제출</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

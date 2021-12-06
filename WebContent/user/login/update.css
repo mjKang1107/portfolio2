@@ -1,0 +1,126 @@
+.userForm__inputData label{
+    text-align: left;
+}
+#addrBtn{
+	margin: 20px;
+}
+
+.updateUserForm{
+	max-width: 600px;
+	min-width: 300px;
+	margin:0 auto;
+	text-align: center;
+}
+
+.updateUserForm .segment {
+  padding: 32px 0;
+  text-align: center;
+}
+
+.updateUserForm button, .updateUserForm input {
+  border: 0;
+  outline: 0;
+  font-size: 16px;
+  border-radius: 320px;
+  padding: 16px;
+  text-shadow: 1px 1px 0 #FFF;
+}
+
+.updateUserForm label {
+  display: block;
+  margin-bottom: 24px;
+  width: 100%;
+}
+
+.updateUserForm input:not([type="checkbox"]){
+  margin-right: 8px;
+  box-shadow: inset 2px 2px 5px #BABECC, inset -5px -5px 10px #FFF;
+  width: 100%;
+  box-sizing: border-box;
+  transition: all 0.2s ease-in-out;
+  appearance: none;
+  -webkit-appearance: none;
+}
+.updateUserForm input:focus:not(:read-only) {
+  box-shadow: inset 1px 1px 2px #BABECC, inset -1px -1px 2px #FFF;
+}
+
+.updateUserForm button {
+  color: #61677C;
+  font-weight: bold;
+  box-shadow: -5px -5px 20px #FFF, 5px 5px 20px #BABECC;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+  font-weight: 600;
+}
+.updateUserForm button:hover {
+  box-shadow: -2px -2px 5px #FFF, 2px 2px 5px #BABECC;
+}
+.updateUserForm button:active {
+  box-shadow: inset 1px 1px 2px #BABECC, inset -1px -1px 2px #FFF;
+}
+.updateUserForm button .icon {
+  margin-right: 8px;
+}
+.updateUserForm button.unit {
+  border-radius: 8px;
+  line-height: 0;
+  width: 48px;
+  height: 48px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 8px;
+  font-size: 19.2px;
+}
+.updateUserForm button.unit .icon {
+  margin-right: 0;
+}
+.updateUserForm button.red {
+  display: block;
+  width: 100%;
+  color: #AE1100;
+}
+
+.updateUserForm .input-group {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.updateUserForm .input-group label {
+  margin: 0;
+  flex: 1;
+}
+
+.updateUserForm input:focus::-webkit-input-placeholder,
+.updateUserForm textarea:focus::-webkit-input-placeholder {
+	/* WebKit browsers */
+	color: transparent;
+}
+
+.updateUserForm input:focus:-moz-placeholder,
+.updateUserForm textarea:focus:-moz-placeholder {
+	/* Mozilla Firefox 4 to 18 */
+	color: transparent;
+}
+
+.updateUserForm input:focus::-moz-placeholder,
+.updateUserForm textarea:focus::-moz-placeholder {
+	/* Mozilla Firefox 19+ */
+	color: transparent;
+}
+
+.updateUserForm input:focus:-ms-input-placeholder,
+textarea:focus:-ms-input-placeholder {
+	/* Internet Explorer 10+ */
+	color: transparent;
+}
+
+.updateUserForm input:read-only {
+	background-color: rgba(90, 88, 88, 0.4);
+	color: white !important;
+}
+
+.updateUserForm input:read-only::placeholder {
+	color: whitesmoke;
+}

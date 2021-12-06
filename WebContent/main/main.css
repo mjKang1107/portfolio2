@@ -1,0 +1,203 @@
+@CHARSET "UTF-8";
+
+@import
+	url(https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding:wght@400;700&display=swap);
+
+@import
+	url(https://fonts.googleapis.com/css?family=Montserrat:500,700&amp;display=swap);
+
+$ruler: 16px ;
+$color-red: #AE1100 ;
+$color-bg: #EBECF0 ;
+$color-shadow: #BABECC ;
+$color-white: #FFF ;
+
+* {
+	text-align: center;
+}
+
+#mainDeco {
+	height: 100% !important;
+	margin: 0 auto !important;
+	font-family: 'Nanum Gothic Coding', monospace !important;
+}
+
+.AlogoDeco {
+	float: left !important;
+	margin-top: 10px !important;
+	margin-left: 1% !important;
+	width: 10% !important;
+}
+
+.thinDeco {
+	font-weight: 400 !important;
+}
+
+.thickDeco {
+	font-weight: 700 !important;
+}
+
+#HnavDeco {
+	float: left !important;
+	width: 60% !important;
+	margin-left: 4% !important;
+	padding-top: 80px !important;
+	padding-bottom: 40px !important;
+}
+
+#HloginDeco {
+	color: black !important;
+	float: left !important;
+	width: 13% !important;
+	margin-left: 8% !important;
+	padding-top: 5px !important;
+}
+
+#HsearchDeco {
+	vertical-align: left !important;
+	padding-top: 10px !important;
+	float: left !important;
+	width: 25% !important;
+}
+
+#HsearchDeco table {
+	background-color: #86d0c7 !important;
+}
+
+#HsearchDeco table input {
+	width: 40% !important;
+	border: 0 !important;
+	outline: 0 !important;
+	font-size: 16px !important;
+	border-radius: 320px !important;
+	text-shadow: 1px 1px 0 #fff !important;
+}
+
+a.HlogoDeco {
+	font-size: 64px !important;
+	color: black !important;
+	text-decoration: none !important;
+	position: relative !important;
+	display: block !important;
+}
+
+a.HmenuDeco {
+	font-weight: 400 !important;
+	font-size: 28px !important;
+	color: black !important;
+	text-decoration: none !important;
+	position: relative !important;
+	display: block !important;
+}
+
+.HloginDeco {
+	margin-top: -10px !important;
+	font-size: 20px !important;
+	color: black !important;
+	text-decoration: none !important;
+}
+
+a.pMainDeco {
+	color: black !important;
+	text-decoration: none !important;
+}
+
+p.tagPDeco {
+	font-size: 64px !important;
+	font-weight: 400 !important;
+	font-size: 80% !important;
+	margin: 0.1px !important;
+	white-space: nowrap !important;
+	color: black !important;
+}
+
+[class^="Decolink-"] {
+	display: inline-block !important;
+	margin: 2em !important;
+}
+
+.Decolink-1 a:before, .Decolink-1 a:after {
+	content: '' !important;
+	border-bottom: solid 3px black !important;
+	position: absolute !important;
+	bottom: 0 !important;
+	width: 0 !important;
+}
+
+.Decolink-1 a:before {
+	left: 0 !important;
+}
+
+.Decolink-1 a:after {
+	right: 0 !important;
+}
+
+.Decolink-1 a:hover:before, .Decolink-1 a:hover:after {
+	width: 50% !important;
+}
+
+.Decolink-1 a:before, .Decolink-1 a:after {
+	-webkit-transition: all 0.2s ease !important;
+	transition: all 0.2s ease !important;
+}
+
+#wrapDeco {
+	clear: both !important;
+}
+
+header {
+	background-color: #86d0c7 !important;
+	height: 150px !important;
+	min-width: 980px !important;
+}
+
+article {
+	
+}
+
+nav-1 li {
+	margin: 0 auto !important;
+	list-style: none !important;
+	width: 23% !important;
+	float: left !important;
+}
+
+/* 로그인 버튼  */
+.userFormDeco {
+	text-align: center !important;
+	position: relative !important;
+	display: flex !important;
+	flex-direction: column !important;
+	border-radius: 10px !important;
+	padding: 20px 20px !important;
+	margin-bottom: 20px !important;
+	width: 100% !important;
+}
+
+.userMainDeco {
+	display: flex !important;
+	flex-direction: column !important;
+}
+
+.userFormDeco input, .btnDeco {
+	border: none !important;
+	padding: 7px 7px !important;
+	font-size: 20px !important;
+	border-radius: 7px !important;
+	box-shadow: 2px 5px 2px rgba(2, 1, 0, 0.3), 5px 1px 5px
+		rgba(2, 1, 0, 0.3), -5px 1px 5px rgba(2, 1, 0, 0.3) !important;
+}
+
+.userFormDeco input:focus {
+	outline: none !important;
+}
+
+.userForm__buttonDeco {
+	transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out !important;
+}
+
+.userForm__buttonDeco:hover {
+	box-shadow: 0 0 40px 40px #82c0b9 inset !important;
+	color: white !important;
+	font-weight: 600 !important;
+}

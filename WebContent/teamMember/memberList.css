@@ -1,0 +1,65 @@
+#userArea{
+	float: left;
+	text-align: center;
+	display:flex;
+	flex-direction: column;
+}
+
+#infoArea{
+	margin:0 auto;
+	text-align: center;
+	display:flex;
+	flex-direction: column;
+	min-width: 600px;
+	max-width: 1000px;
+	overflow: hidden;
+}
+
+.userArea-userList{
+	margin: 0 auto;
+	text-align: center !important;
+}
+.userArea-userList td{
+	text-align: center !important;
+}
+
+.team-memberList__TopTitle{
+	text-align:center;
+	background-color: #7cb10e;
+	font-size: 20px;
+	font-weight: 500;
+	margin:0 auto;
+	margin-bottom:50px;
+	padding: 15px 15px;
+	border-radius: 10px;
+	font-size: 24px;
+	color:#FFFFFF;
+	box-shadow: 1px 2px 1px 1px rgba(1,1,1,0.2), -1px 2px 1px 1px rgba(1,1,1,0.2);
+}
+
+.team-memberList__Title{
+	background-color: #03AEBC;
+	font-size: 20px;
+	font-weight: 500;
+	margin:20px auto;
+	margin-top:35px;
+	padding: 15px 15px;
+	border-radius: 10px;
+	font-size: 24px;
+	color:#FFFFFF;
+	box-shadow: 1px 2px 1px 1px rgba(1,1,1,0.2), -1px 2px 1px 1px rgba(1,1,1,0.2);
+}
+
+.userInfo-Wrapper{
+	overflow: hidden;
+	border-radius: 10px;
+	margin-top: 30px;
+}
+
+.userInfo-Wrapper td{
+	text-align: left;
+}
+
+.shadow{
+	box-shadow: 1px 2px 1px 1px rgba(1,1,1,0.2), -1px 2px 1px 1px rgba(1,1,1,0.2);
+}

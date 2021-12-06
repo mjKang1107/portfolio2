@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="deco">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <wb-resource deploy-path="/WEB-INF/classes/" source-path="/ImportedClasses"/>
+        <dependent-module archiveName="jsoup-1.13.1.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jsoup-1.13.1/jsoup-1.13.1">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="cos.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/cos/cos">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jbcrypt-0.4.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jbcrypt-0.4/jbcrypt-0.4">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="mysql-connector-java-5.1.49-bin.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/mysql-connector-java-5.1.49-bin/mysql-connector-java-5.1.49-bin">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="javax.mail-1.5.5.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/javax.mail-1.5.5/javax.mail-1.5.5">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-collections4-4.4.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/commons-collections4-4.4/commons-collections4-4.4">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="javax.mail-api-1.5.5.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/javax.mail-api-1.5.5/javax.mail-api-1.5.5">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="activation.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/activation/activation">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="bytes-0.4.6.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/bytes-0.4.6/bytes-0.4.6">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jstl-1.2.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jstl-1.2/jstl-1.2">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-dbcp2-2.8.0.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/commons-dbcp2-2.8.0/commons-dbcp2-2.8.0">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-pool2-2.9.0.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/commons-pool2-2.9.0/commons-pool2-2.9.0">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="json-simple-1.1.1.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/json-simple-1.1.1/json-simple-1.1.1">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="java-output-path" value="/deco/build/classes"/>
+        <property name="context-root" value="deco"/>
+    </wb-module>
+</project-modules>

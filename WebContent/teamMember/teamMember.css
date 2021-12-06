@@ -1,0 +1,30 @@
+@CHARSET "UTF-8";
+
+
+#subNav {
+    overflow: hidden;
+    background: #49d39c;
+    font-size: 1.4em;
+    padding-left: 30%;
+    position: relative;
+    top: -23px;
+}
+
+#subNav ul {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+
+#subNav li {
+	float: left;
+	width: 10%;
+}
+
+#subNav li a {
+	display: inline-block;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	margin: 1px 2%;
+}

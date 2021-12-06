@@ -1,0 +1,150 @@
+
+body, p, .deleteForm input, .deleteForm select, .deleteForm textarea, .deleteForm button {
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: -0.2px;
+  font-size: 16px;
+}
+
+.userForm {
+  padding: 16px;
+  width: 320px;
+  margin: 0 auto;
+}
+
+.segment {
+  padding: 32px 0;
+  text-align: center;
+}
+
+ .deleteForm button, .deleteForm input {
+  border: 0;
+  outline: 0;
+  font-size: 16px;
+  border-radius: 320px;
+  padding: 16px;
+  text-shadow: 1px 1px 0 #FFF;
+}
+
+.deleteForm label {
+  display: block;
+  margin-bottom: 24px;
+  width: 100%;
+}
+.myPageWrapper h2{
+	text-align: center;
+}
+
+.deleteForm input:not([type="checkbox"]){
+  margin-right: 8px;
+  box-shadow: inset 2px 2px 5px #BABECC, inset -5px -5px 10px #FFF;
+  width: 100%;
+  box-sizing: border-box;
+  transition: all 0.2s ease-in-out;
+  appearance: none;
+  -webkit-appearance: none;
+}
+input:focus:not(:read-only) {
+  box-shadow: inset 1px 1px 2px #BABECC, inset -1px -1px 2px #FFF;
+}
+
+.deleteForm button {
+  color: #61677C;
+  font-weight: bold;
+  box-shadow: -5px -5px 20px #FFF, 5px 5px 20px #BABECC;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+  font-weight: 600;
+}
+.deleteForm button:hover {
+  box-shadow: -2px -2px 5px #FFF, 2px 2px 5px #BABECC;
+}
+.deleteForm button:active {
+  box-shadow: inset 1px 1px 2px #BABECC, inset -1px -1px 2px #FFF;
+}
+.deleteForm button .icon {
+  margin-right: 8px;
+}
+.deleteForm button.unit {
+  border-radius: 8px;
+  line-height: 0;
+  width: 48px;
+  height: 48px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 8px;
+  font-size: 19.2px;
+}
+.deleteForm button.unit .icon {
+  margin-right: 0;
+}
+.deleteForm button.red {
+  display: block;
+  width: 100%;
+  color: #AE1100;
+}
+
+.deleteForm .input-group {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.deleteForm .input-group label {
+  margin: 0;
+  flex: 1;
+}
+
+.deleteForm input:focus::-webkit-input-placeholder,
+textarea:focus::-webkit-input-placeholder {
+	/* WebKit browsers */
+	color: transparent;
+}
+
+.deleteForm input:focus:-moz-placeholder,
+textarea:focus:-moz-placeholder {
+	/* Mozilla Firefox 4 to 18 */
+	color: transparent;
+}
+
+.deleteForm input:focus::-moz-placeholder,
+textarea:focus::-moz-placeholder {
+	/* Mozilla Firefox 19+ */
+	color: transparent;
+}
+
+.deleteForm input:focus:-ms-input-placeholder,
+textarea:focus:-ms-input-placeholder {
+	/* Internet Explorer 10+ */
+	color: transparent;
+}
+
+.deleteForm .userForm {
+	text-align: center;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+	border-radius: 10px;
+	padding: 20px 20px;
+	margin-bottom: 20px;
+}
+
+.deleteForm input:read-only {
+	background-color: rgba(90, 88, 88, 0.4);
+	color: white !important;
+}
+
+.deleteForm input:read-only::placeholder {
+	color: whitesmoke;
+}
+
+/* 
+.userForm__submit {
+	transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+}
+
+.userForm__submit:hover {
+	box-shadow: 0 0 40px 40px green inset;
+	color: white;
+	font-weight: 600;
+} */

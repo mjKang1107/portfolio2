@@ -1,0 +1,85 @@
+@CHARSET "UTF-8";
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#write {
+	margin: 20px auto;
+	width: 70%;
+	font-size: 1.25em;
+}
+
+#write>#smart_editor2 {
+	margin: 0 auto;
+	width: 100% !important;
+}
+
+.iframeSize {
+	width: 100% !important;
+}
+
+#title {
+	border: none;
+	width: 60%;
+}
+
+#cutBar {
+	margin: 5px 0;
+	display: block !important;
+}
+
+#fr {
+	font-size: 1.3em;
+}
+
+.g-recaptcha div {
+	margin: 0 auto;
+}
+
+#buttons {
+	text-align: center;
+}
+
+#buttons input {
+	border: none;
+	border-bottom: 1px solid black;
+	background: white;
+	font-size: 15px;
+}
+
+#buttons input[type=button]:hover {
+	
+}
+
+.tag {
+	letter-spacing: 3px;
+	font-weight: bold;
+}
+
+.filebox {
+	display: inline-block;
+	padding: .5em .75em;
+	color: #999;
+	font-size: inherit;
+	line-height: normal;
+	vertical-align: middle;
+	background-color: #fdfdfd;
+	cursor: pointer;
+	border: 1px solid #ebebeb;
+	border-bottom-color: #e2e2e2;
+	border-radius: .25em;
+	font-weight: bold;
+}
+
+/* .filebox input { 파일 필드 숨기기
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	margin: -1px;
+	overflow: hidden;
+	clip: rect(0, 0, 0, 0);
+	border: 0;
+}   */

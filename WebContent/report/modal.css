@@ -1,0 +1,77 @@
+.ReportModal {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  animation: open .5s ease-in-out forwards;
+}
+
+.ReportModal .title {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  background-color: #E2525C !important;
+  border-radius: 5px;
+}
+
+.ReportModal .title span {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0 auto;
+  padding: 10px 0;
+  color:white;
+}
+
+.ReportModal .title,
+.ReportModal .description {
+  padding: 5px;
+}
+
+.ReportModal .content {
+  color:#8E8D8D;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  border: 1px solid #eee;
+  border-radius: 5px;
+}
+
+.ReportModal .report__type{
+	-webkit-appearance: auto;
+  box-shadow: none;
+}
+
+.ReportModal .content_input:not(:last-child){
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  padding: 0 6px;
+  padding-left: 11px;
+}
+
+.ReportModal .content_input label{
+	margin:0;
+}
+
+.ReportModal .content-wrapper img {
+  width: 100%;
+}
+
+.ReportModal .content_button-Wrapper {
+  text-align: center;
+  margin-top:15px;
+  padding: 0 0 20px 0;
+}
+
+@keyframes open{
+	from{
+		opacity:0;
+	}
+	to{
+		opacity:1;
+	}
+}

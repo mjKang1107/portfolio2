@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Context>
+	<Resource 
+		name="jdbc/deco"
+		auth="Container"
+		type="javax.sql.DataSource"
+		driverClassName="com.mysql.jdbc.Driver"
+		username="itwillbs7"
+		password="itwillbs8030909"
+		url="jdbc:mysql://localhost:3306/itwillbs7"
+		maxWait="5000"
+	/>
+</Context>

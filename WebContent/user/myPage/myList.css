@@ -1,0 +1,35 @@
+.tableWrapper__title-Wrapper{
+	border-radius: 10px;
+	text-align: center;
+	padding: 30px 0;
+}
+
+.tableWrapper__title-Wrapper span{
+	background-color: #03AEBC;
+	font-size: 20px;
+	font-weight: 500;
+	margin:0 auto;
+	padding: 15px 15px;
+	border-radius: 10px;
+	font-size: 24px;
+	color:#FFFFFF;
+	box-shadow: 1px 2px 1px 1px rgba(1,1,1,0.2), -1px 2px 1px 1px rgba(1,1,1,0.2);
+}
+
+.userContentList-tableWrapper .info-table__detail{
+	margin: 0 auto;
+	margin-bottom: 30px;
+}
+
+.info-table__detail{
+	max-width: 400px !important;
+	border: 1px solid #00ca00;
+	border-radius: 4px;
+	box-shadow: 1px 2px 1px 1px rgba(1,1,1,0.5)
+}
+
+a{
+	text-decoration: none;
+	color:#a27948;
+}
+

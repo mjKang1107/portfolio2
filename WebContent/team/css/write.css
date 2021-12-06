@@ -1,0 +1,56 @@
+@CHARSET "UTF-8";
+
+* {
+	margin: 0;
+	padding: 0;
+
+}
+
+#write {
+	margin: 20px auto;
+	width: 70%;
+	font-size: 1.25em;
+}
+
+#write>#smart_editor2 {
+	margin: 0 auto;
+	width: 100% !important;
+}
+
+.iframeSize {
+	width: 100% !important;
+}
+
+#title {
+	border: none;
+	width: 60%;
+}
+
+#cutBar {
+	margin: 5px 0;
+	display: block !important;
+}
+
+#fr {
+	font-size: 1.3em;
+}
+
+.g-recaptcha div {
+	margin: 0 auto;
+}
+
+#buttons {
+	text-align: center;
+}
+
+#buttons input {
+	border: none;
+	border-bottom: 1px solid black;
+	background: white;
+	font-size: 15px;
+}
+
+#buttons input[type=button]:hover {
+	
+}
+

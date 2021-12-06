@@ -1,0 +1,102 @@
+.subInputContainer{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    max-width: 100%;
+    min-height: 50px;
+    max-height: 1000px;
+    background-color: white;
+    margin-bottom: 15px;
+}
+.subjectInput{
+    margin: 0;
+    position: absolute;
+    width: 100%;
+    min-height: 20px;
+    outline: none;
+    border: none;
+    background-color: white;
+    background-color: rgba(255, 255, 255, 0);
+    box-sizing: border-box;
+}
+
+.cofirmContainer i{
+    margin-right: 8px;
+}
+
+.subjectInputWrapper{
+    display: flex;
+}
+
+.InputContainer{
+    display: grid;
+    grid-template-rows: 30px 1fr;
+    box-sizing: border-box;
+}
+.cofirmContainer{
+    display: flex;
+}
+.searchBox{
+    display: none;
+    flex-direction: column;
+}
+.userForm{
+    width: 50%;
+    max-width: 525px;
+    min-width: 500px;
+}
+
+.userForm input:not(.subjectInput){
+    width: 100%;
+    text-align: center;
+}
+
+.searchBox>.searchNodeContainer:first-child {
+    margin-top: 10px;
+}
+
+.searchBox > .searchNodeContainer:last-child{
+	margin-bottom: 10px;
+}
+
+.searchNodeContainer{
+    margin-left: 10px;
+    text-align: left !important;
+}
+
+.searchNodeContainer a:focus{
+	outline-color: rgba(4, 217, 255, 0.664);
+    box-shadow: 3px 3px 4px 1px rgba(4, 217, 255, 1),3px -3px 4px 1px rgba(4, 217, 255, 1),-3px 3px 4px 1px rgba(4, 217, 255, 1);
+}
+
+.reqLogin{
+	text-align: center;
+}
+
+.reqLogin a{
+	text-decoration: none;
+	color: rgb(109, 109, 161);
+}
+
+.userForm a{
+    text-decoration: none;
+	color: rgb(109, 109, 161);
+}
+
+.addrBtn{
+	margin-bottom: 20px;
+	transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+}
+
+.addrBtn:hover {
+  font-weight: 600;
+}
+
+.subjectItem{
+	padding-left: 10px;
+}
+
+#addr{
+    font-weight: 200;
+    text-shadow: none;
+}
